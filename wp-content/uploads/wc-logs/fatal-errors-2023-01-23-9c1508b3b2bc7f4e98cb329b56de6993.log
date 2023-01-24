@@ -1,0 +1,22 @@
+2023-01-23T17:08:40+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on bool in /home2/infow082/public_html/beehappy/wp-content/themes/owly/framework/woocommerce/cart-utils.php:84
+Stack trace:
+#0 /home2/infow082/public_html/beehappy/wp-includes/class-wp-hook.php(307): owly_woo_cart_fragments(Array)
+#1 /home2/infow082/public_html/beehappy/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 /home2/infow082/public_html/beehappy/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#3 /home2/infow082/public_html/beehappy/wp-includes/class-wp-hook.php(307): WC_AJAX::get_refreshed_fragments('')
+#4 /home2/infow082/public_html/beehappy/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 /home2/infow082/public_html/beehappy/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /home2/infow082/public_html/beehappy/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#7 /home2/infow082/public_htm, em /home2/infow082/public_html/beehappy/wp-content/themes/owly/framework/woocommerce/cart-utils.php, na linha 84
+
+2023-01-23T17:22:26+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on bool in /home2/infow082/public_html/beehappy/wp-content/themes/owly/framework/woocommerce/cart-utils.php:84
+Stack trace:
+#0 /home2/infow082/public_html/beehappy/wp-includes/class-wp-hook.php(307): owly_woo_cart_fragments(Array)
+#1 /home2/infow082/public_html/beehappy/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 /home2/infow082/public_html/beehappy/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#3 /home2/infow082/public_html/beehappy/wp-includes/class-wp-hook.php(307): WC_AJAX::get_refreshed_fragments('')
+#4 /home2/infow082/public_html/beehappy/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 /home2/infow082/public_html/beehappy/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /home2/infow082/public_html/beehappy/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#7 /home2/infow082/public_htm, em /home2/infow082/public_html/beehappy/wp-content/themes/owly/framework/woocommerce/cart-utils.php, na linha 84
+
